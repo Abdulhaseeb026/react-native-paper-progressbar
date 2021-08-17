@@ -64,14 +64,10 @@ The Paper Progress Bar component that displays the Progress Bar
 
 ## Screenshot
 
-| Progress Bar |
-| :----------: |
+|                                   Progress Bar                                    |
+| :-------------------------------------------------------------------------------: |
+| <img src="./src/components/ProgressBar/screenshots/progressbar.png" height="500"> |
 
-| <p alignSelf="center">
-<img width="460" height="300" src="http://www.fillmurray.com/460/300">
-
-</p>|
-<!-- <img src="./src/components/ProgressBar/screenshots/progressbar.png" height="500">  -->
 ## License
 
 MIT License
