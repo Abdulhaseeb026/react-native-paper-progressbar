@@ -66,7 +66,7 @@ The Paper Progress Bar component that displays the Progress Bar
 
 |                                             Progress Bar                                              |
 | :---------------------------------------------------------------------------------------------------: |
-| <img alignItems="center" src="./src/components/ProgressBar/screenshots/progressbar.png" height="500"> |
+| <img src="./src/components/ProgressBar/screenshots/progressbar.png" height="500"> |
 
 ## License
 
