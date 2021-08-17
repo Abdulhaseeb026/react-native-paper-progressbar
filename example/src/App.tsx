@@ -1,12 +1,8 @@
-import React, { useEffect } from 'react'
-import RNPaperProgressBarModule, { Counter } from 'react-native-paper-progressbar'
+import * as React from 'react'
+import ProgressBar from 'react-native-paper-progressbar'
 
 const App = () => {
-  useEffect(() => {
-    console.log(RNPaperProgressBarModule)
-  })
-
-  return <Counter />
+  return <ProgressBar />
 }
 
 export default App
