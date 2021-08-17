@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplateModule.swift
-//  RNModuleTemplateModule
+//  RNPaperProgressBarModule.swift
+//  RNPaperProgressBarModule
 //
-//  Copyright © 2021 Alex Demchenko. All rights reserved.
+//  Copyright © 2021 Abdul Haseeb. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplateModule)
-class RNModuleTemplateModule: NSObject {
+@objc(RNPaperProgressBarModule)
+class RNPaperProgressBarModule: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]

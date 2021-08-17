@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNPaperProgressBarModule, { Counter } from 'react-native-paper-progressbar'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNPaperProgressBarModule)
   })
 
   return <Counter />
