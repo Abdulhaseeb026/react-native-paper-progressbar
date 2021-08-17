@@ -25,16 +25,18 @@ import React, { useEffect } from 'react'
 import { ProgressBar, showProgressBar } from 'react-native-paper-progressbar'
 
 const App = () => {
+  // Call the ProgressBar Component on component mount
   useEffect(() => {
     showProgressBar({
-      progress: 0,
-      color: 'teal',
-      loop: false,
-      visible: true,
-      time: 200,
+      progress: 0, //Progress value (between 0 and 1).
+      color: 'teal', //Color of the progress bar.
+      loop: false, //If the progress bar will show indeterminate progress.
+      visible: true, //Whether to show the ProgressBar or hide it.
+      time: 200, // Time taken to complete the progress bar.
     })
   }, [])
 
+  // Render the ProgressBar Component
   return <ProgressBar />
 }
 
