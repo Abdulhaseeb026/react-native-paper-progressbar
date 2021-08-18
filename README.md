@@ -45,7 +45,7 @@ The Paper Progress Bar component that displays the Progress Bar
 
 | Param    | Type    | Description                                                                       | Default |
 | :------- | :------ | :-------------------------------------------------------------------------------- | :------ |
-| progress | Number  | Progress value (between 0 and 1).                                                 | 0       |
+| progress | Number  | Progress value (between 0 and 1).                                                 | 0.5     |
 | color    | String  | Color of the progress bar. The background color will be calculated based on this. | 'teal'  |
 | loop     | Boolean | If the progress bar will show indeterminate progress.                             | false   |
 | visible  | Boolean | Whether to show the ProgressBar (true) or hide it (false).                        | true    |
