@@ -21,23 +21,17 @@ npm i --save https://github.com/abdulhaseeb026/react-native-paper-progressbar
 ## Usage
 
 ```js
-import React, { useEffect } from 'react'
-import { ProgressBar, showProgressBar } from 'react-native-paper-progressbar'
+import React from 'react'
+import { View } from 'react-native'
+import ProgressBar from 'react-native-paper-progressbar'
 
 const App = () => {
-  // Call the ProgressBar Component on component mount
-  useEffect(() => {
-    showProgressBar({
-      progress: 0, //Progress value (between 0 and 1).
-      color: 'teal', //Color of the progress bar.
-      loop: false, //If the progress bar will show indeterminate progress.
-      visible: true, //Whether to show the ProgressBar or hide it.
-      time: 200, // Time taken to complete the progress bar.
-    })
-  }, [])
-
-  // Render the ProgressBar Component
-  return <ProgressBar />
+  // Call the ProgressBar Component
+  return (
+    <View style={styles.root}>
+      <ProgressBar />
+    </View>
+  )
 }
 
 export default App
@@ -55,7 +49,7 @@ The Paper Progress Bar component that displays the Progress Bar
 | color    | String  | Color of the progress bar. The background color will be calculated based on this. | 'teal'  |
 | loop     | Boolean | If the progress bar will show indeterminate progress.                             | false   |
 | visible  | Boolean | Whether to show the ProgressBar (true) or hide it (false).                        | true    |
-| time     | Number  | Time taken to complete the progress bar.                                          | 200     |
+| time     | Number  | Time taken to complete the progress bar.                                          | null    |
 
 <!--
 ## Contributing
