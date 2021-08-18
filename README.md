@@ -58,9 +58,9 @@ The Paper Progress Bar component that displays the Progress Bar
 
 ## Screenshot
 
-|                                   Progress Bar                                    |                                    Progress Bar                                    |
-| :-------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| <img src="./src/components/ProgressBar/screenshots/progressbar.png" height="500"> | <img src="./src/components/ProgressBar/screenshots/progloop.png.png" height="500"> |
+|                                   Progress Bar                                    |                             Progress Bar with Loop                              |
+| :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| <img src="./src/components/ProgressBar/screenshots/progressbar.png" height="500"> | <img src="./src/components/ProgressBar/screenshots/prog_loop.png" height="500"> |
 
 ## License
 
