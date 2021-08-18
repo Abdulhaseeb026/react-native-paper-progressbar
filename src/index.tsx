@@ -1,3 +1,3 @@
-import PaperProgressBar from './components/ProgressBar'
+import ProgressBar from './components/ProgressBar'
 
-export default PaperProgressBar
+export default ProgressBar
