@@ -5,7 +5,7 @@ import ProgressBar from 'react-native-paper-progressbar'
 const App = () => {
   return (
     <View style={styles.root}>
-      <ProgressBar time={20} />
+      <ProgressBar />
     </View>
   )
 }
